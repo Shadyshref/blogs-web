@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "node init && turbo run dev",
+    "build": "node init && turbo run build",
     "lint": "turbo run lint"
   },
   "packageManager": "npm@10.9.3",
-  "workspaces":[
+  "workspaces": [
     "apps/*"
   ],
   "keywords": [],
